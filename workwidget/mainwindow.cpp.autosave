@@ -119,7 +119,6 @@ void MainWindow::on_pushButton_clicked()
 
     if (dialogAdd->exec() == QDialog::Accepted) {
        QString str= dialogAdd->number();
-
         dialogAdd->name();
         dialogAdd->phone();
         dialogAdd->email();

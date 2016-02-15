@@ -14,10 +14,15 @@ class DialogAddData : public QDialog
 
 public:
     explicit DialogAddData(QWidget *parent = 0);
+    QString number() const;
+    QString name() const;
+    QString phone() const;
+    QString email() const;
     ~DialogAddData();
 
 private slots:
     void on_pushButton_clicked();
+    void on_pushButton_2_clicked();
 
 private:
     Ui::DialogAddData *ui;

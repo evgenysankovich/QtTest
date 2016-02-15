@@ -10,6 +10,7 @@ DialogAddData::DialogAddData(QWidget *parent) :
 
 QString DialogAddData::number() const
 {
+    
     return ui->lineEdit->text();
 }
 
@@ -35,11 +36,7 @@ DialogAddData::~DialogAddData()
 
 void DialogAddData::on_pushButton_clicked()
 {
-    QString number, name, phone, email;
-    number = ui->lineEdit->text();
-    name = ui->lineEdit_2->text();
-    phone = ui->lineEdit_3->text();
-    email = ui->lineEdit_4->text();
+ 
 }
 
 void DialogAddData::on_pushButton_2_clicked()
