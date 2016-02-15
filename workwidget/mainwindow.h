@@ -31,6 +31,8 @@ private slots:
 
     void on_areaTable_objectNameChanged(const QString &objectName);
 
+    void on_pushButton_5_clicked();
+
 private:
     Ui::MainWindow *ui;
     bool createConnection();

@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent) :
     createDatabase();
   //  sqlQueryModel();
 }
-//test
+
 MainWindow::~MainWindow()
 {
     delete ui;
@@ -116,4 +116,9 @@ void MainWindow::on_pushButton_clicked()
     DialogAddData *dialogAdd = new DialogAddData();
     dialogAdd->setModal(true);
     dialogAdd->show();
+}
+
+void MainWindow::on_pushButton_5_clicked()
+{
+    this->close();
 }
